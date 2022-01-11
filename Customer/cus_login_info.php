@@ -33,7 +33,7 @@ if($after_assoc['total'] == 1){
     header('location: ../Inventory/inventory.php');
 }
 else {
-    $_SESSION['login_err'] = "Login failed. Please Register of input correct info";
+    $_SESSION['login_err'] = "Login failed. Please Register or input correct info";
     header('location: cus_login.php');
 }
 

@@ -14,7 +14,7 @@ require_once('adnav.php');
   left: 500px;
   bottom: 300px;
   right: 40px;
-  background: darkolivegreen;
+  background: darkseagreen;
   overflow-x: hidden;
   padding: 100px 100px 50px;
 }
@@ -24,12 +24,12 @@ require_once('adnav.php');
   padding: 10px 20px 20px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: lightgray;
+  color: black;
   display: block;
 }
 
 .centernav a:hover {
-  color: yellowgreen;
+  color: aqua;
 }
 
 .body {

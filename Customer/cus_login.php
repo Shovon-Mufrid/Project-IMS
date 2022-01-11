@@ -14,6 +14,20 @@ require_once('cunav.php');
                             <a href="cus_reg.php" class= "text-black"> Registration </a></h5>
                     </div>
                     <div class="card-body">
+                    <?php
+                    if (isset($_SESSION['login_err'])) { ?>
+
+                        <div class="alert alert-danger" role="alert">
+                            <?php
+                            echo $_SESSION['login_err']; // from reg.php > session>failed
+                            unset($_SESSION['login_err']); // NO REPEAT OF ALERTS
+                            ?>
+                        </div>
+
+                    <?php
+                    }
+                    ?>
+
                         <form action="cus_login_info.php" method="post">
 
 

@@ -1,2 +1,2 @@
 # Project-IMS
- ISD&SE Lab project
+ This is a project regarding Inventory Management System
